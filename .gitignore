@@ -9,6 +9,8 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+.planning/*
+.claude/*
 
 # testing
 /coverage
@@ -30,8 +32,15 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files
 .env*
+
+# local database
+local.db
+
+# uploaded images (local dev)
+public/uploads/*
+!public/uploads/.gitkeep
 
 # vercel
 .vercel
