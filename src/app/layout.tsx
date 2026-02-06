@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Playfair_Display, Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -82,6 +83,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr" className={`${playfairDisplay.variable} ${inter.variable}`}>
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-3EYWTRSYY0"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-3EYWTRSYY0');
+          `}
+        </Script>
+      </head>
       <body className="font-sans bg-background text-foreground antialiased">
         <Navbar />
         <main className="min-h-screen">
