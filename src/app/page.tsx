@@ -9,7 +9,7 @@ import CTASection from '@/components/landing/CTASection';
 export const metadata: Metadata = {
   title: 'Bestemiy Ink — Profesyonel Dövme Sanatı | Isparta',
   description:
-    'Beste Bozkurt tarafından kurulan Bestemiy Ink, Isparta\'da profesyonel dövme sanatı sunmaktadır. Realism, line work, cover up, minimalist ve renkli tarzlarda çalışmalar.',
+    'Dövme sanatçısı Beste Bozkurt\'un markası Bestemiy Ink ile Isparta\'da profesyonel dövme sanatı. Realism, line work, cover up, minimalist ve renkli tarzlarda çalışmalar.',
   keywords: [
     'dövme',
     'tattoo',

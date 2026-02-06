@@ -116,7 +116,7 @@ export default function ContactForm() {
           Mesajınız Alındı
         </h3>
         <p className="text-sm text-foreground/40 font-sans font-light max-w-xs">
-          En kısa sürede dönüş yapacağız. Teşekkürler.
+          En kısa sürede dönüş yapacağım. Teşekkürler.
         </p>
 
         <div className="mt-6 w-12 h-px bg-gradient-to-r from-transparent via-gold/20 to-transparent" />

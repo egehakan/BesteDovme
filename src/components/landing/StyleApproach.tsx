@@ -131,8 +131,8 @@ export default function StyleApproach() {
             </div>
             <div className="md:col-span-5 flex items-end">
               <p className="text-sm md:text-base text-foreground/30 font-sans font-light leading-relaxed max-w-md">
-                Farklı tarzlarda uzmanlaşmış ellerden, size özel tasarımlar.
-                Her çalışma benzersiz bir sanat eseridir.
+                Her tarzda deneyimli bir dokunuş, tamamen size özel tasarımlar.
+                Her dövme başlı başına bir sanat eseri.
               </p>
             </div>
           </div>
